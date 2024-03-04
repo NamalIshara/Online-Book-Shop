@@ -1,0 +1,32 @@
+.page-editor-container {
+    text-align: center;
+    background-color: #629bf0;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 10px;
+}
+.logo{
+    width: 110px;
+    height: 100px;
+    border: none;
+}
+
+.page-editor-user-details {
+    font-style: italic;
+    padding: 10px;
+    border: solid rgb(46, 80, 234); 
+}
+
+.page-editor-content-item {
+    margin: 50px;
+}
+
+.page-editor-content-text {
+    line-height: 0%;
+}
+
+.page-editor-content-item a {
+    color: white;
+}

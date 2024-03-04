@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .group-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .member {
+    margin: 10px;
+  }
+  
+  .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid rgb(36, 69, 219);
+    margin-left: 20px;
+  }
+  
+  .details {
+    margin-top: 30px;
+    display: none;
+  }
+  
+  .details p {
+    font-weight: bold;
+  }
+  
+
+.logo{
+    width:110px;
+    margin-top: 1px;
+    height: 100px;
+    margin-right: 500px;
+}
+.g-members{
+  color: #010742;
+}
+
+footer {
+    background-color: #2977bb;
+    padding: 0;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: 100px;
+  }
+  
+.footer-container{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.footer-links a,.footer-container p {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff
+
+  }
+  
+.social-media a{
+    display: inline-block;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+.social-media a i{
+    font-size: 2em;
+    color: #010742;
+    
+}
+
+.social-media a:hover {
+    background-color: #010742;
+    transition: 0.5s;
+}
+.social-media a:hover i{
+    background-color: white;
+    transition: 0.5s;
+}
+.copy-right{
+  padding-top: 10px;
+}

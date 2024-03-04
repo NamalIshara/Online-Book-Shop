@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid rgb(172, 220, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+    
+}
+
+.header-title {
+    margin-left: 8%;
+    color: crimson;
+}
+
+.nav-bar div {
+    height: 50px;
+    width: 80px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nav-bar a {
+    all: unset;
+}
+
+.nav-bar div:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.active {
+    border-bottom: 2px solid red;
+}
+
+.nav-bar {
+    margin-right: 10%;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.home{
+    padding-right: 10px;
+}

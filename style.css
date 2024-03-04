@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(36, 99, 154);
+}
+
+.container{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: azure;
+}
+
+.container h1{
+    font-size: 28px;
+    font-weight: 800;
+    border-bottom: 2px solid #000004;
+    border-left: 4px solid #000000;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #08083e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.question-container{
+    padding: 20px 0;
+}
+.question-container h2{
+    font-size: 16px;
+    color: rgb(6, 6, 24);
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#answer-buttons{
+    margin-top: 15px;
+}
+
+.btn{
+    background-color: rgb(58, 193, 186);
+    color: #222;
+    font-weight: 600;
+    width: 100%;
+    border: solid #fefafa;
+    padding: 10px;
+    margin: 8px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    background-color: #000000;
+    color: white;
+}
+.btn:active{
+    color: white;
+}
+
+#next-btn{
+    background-color: rgb(9, 43, 92);
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 200px;
+
+}
+
+.hide{
+    display: none;
+}
+
+.btn.correct{
+    background-color: rgb(25, 158, 30);
+    color: white;
+}
+.btn.wrong{
+    background-color: rgb(236, 47, 47);
+    color: #ffffff;
+}
+
+.start-btn{
+    background-color: rgb(5, 14, 64);
+    padding: 6px 40px;
+    border: solid  rgb(6, 16, 75);
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: rgb(233, 245, 245);
+    margin-left: 220px;
+    font-weight:500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.start-btn:hover{
+    color: black;
+    background-color:  rgb(128, 228, 228);
+    border: solid  rgb(128, 228, 228);
+}
+
